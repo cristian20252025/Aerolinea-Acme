@@ -7,10 +7,13 @@
     <link rel="stylesheet" href="estilos.css" />
 </head>
 <body>
-    <section class="logo">
+    <header>
         <div class="container-img">
             <img class="img-avion" src="/img/logo.png" alt="logo">
         </div>
+    </header>
+    <section class="logo">
+        
     <div class= "login-container" >
             <h1 class="login title">Registro</h1>
     </div> 
@@ -25,15 +28,15 @@
         <label for="Telefono"></label>
         <input type="Telefono" id="Telefono" name="Telefono" placeholder="Telefono" />
     <label for="Ciudad"></label><br>
-    <select id="Ciudad" name="Ciudad">
-    <option value="bogota">bogota</option>
+    <select class="Ciudad" id="Ciudad" name="Ciudad">
+      <option value="">Seleccione una ciudad</option>
+      <option value="bogota">Bogota</option>
       <option value="medellin">Medellín</option>
       <option value="cali">Cali</option>
       <option value="barranquilla">Barranquilla</option>
     </select><br><br>
     
         <button type="submit">GUARDAR</button>
-
 
     </section>
 </body>

@@ -3,15 +3,7 @@
     padding: 0;
     box-sizing: border-box;
   }
-  
-  body {
-    font-family: Arial, sans-serif;
-    background: #ffffff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-  }
+
   
   .container {
     width: 90%;
@@ -36,7 +28,7 @@
   hr {
     width: 80%;
     margin-top: 5%;
-    margin-bottom: -4%;
+
     margin-left: 10%;
   }
 
@@ -92,8 +84,6 @@
     justify-content: center;
   }
 
-
-
   .container-img {
     background: linear-gradient(90deg,#e74583, #58a3ce);
     height: 5rem;
@@ -103,14 +93,22 @@
   .img-avion {
     width: 50%;
     margin-left: 25%;
-    margin-top: -8%;
+    margin-top: -5%;
+  }
+
+  .Ciudad {
+    padding: 0.6rem;
+    border: 1px solid #686767;
+    color: gray;
+    border-radius: 4px;
+    margin-top: -2.5%;
   }
 
   @media screen and (max-width: 320px) {
     .img-avion {
       width: 50%;
       margin-left: 26%;
-      margin-top: -3px;
+      margin-top: -5.5px;
     }
   }
 
@@ -118,7 +116,7 @@
     .img-avion {
       width: 30%;
       margin-left: 35%;
-      margin-top: -3.5%;
+      margin-top: -4%;
     }
   }
 
@@ -126,8 +124,14 @@
     .img-avion {
       width: 25%;
       margin-left: 38%;
-      margin-top: -4.3%;
+      margin-top: -4.8%;
     }
   }
 
-
+  @media screen and (min-width: 1500px) {
+    .img-avion {
+      width: 22%;
+      margin-left: 38%;
+      margin-top: -4.5%;
+    }
+  }
