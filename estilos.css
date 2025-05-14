@@ -109,6 +109,30 @@
     color: gray;
   }
 
+  .foto{
+    display: flex;
+    flex-direction: row;
+    padding: 0 10px;
+    margin-bottom: -15px;
+  }
+
+  .info-foto{
+    width: 100px;
+    margin-left: 5px;
+    margin-top: 5px;
+  }
+
+  .logout{
+    color: gray;
+  }
+  
+  .login-title{
+    margin-top: 35px;
+    font-size: 20px;
+    font-family: Arial;
+  }
+
+
   @media screen and (max-width: 320px) {
     .img-avion {
       width: 50%;
