@@ -92,6 +92,8 @@
     justify-content: center;
   }
 
+
+
   .container-img {
     background: linear-gradient(90deg,#e74583, #58a3ce);
     height: 5rem;
@@ -101,7 +103,7 @@
   .img-avion {
     width: 50%;
     margin-left: 25%;
-    margin-top: -4.5%;
+    margin-top: -8%;
   }
 
   @media screen and (max-width: 320px) {
@@ -127,3 +129,5 @@
       margin-top: -4.3%;
     }
   }
+
+
