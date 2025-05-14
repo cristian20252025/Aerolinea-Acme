@@ -132,6 +132,77 @@
     font-family: Arial;
   }
 
+  .checkbox{
+    color: gray;
+    margin-bottom: -15px;
+    margin-top: -2px;
+  }
+
+  .vuelos-disponibles{
+    margin-top: 50px;
+  }
+
+  .login-title2{
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-family: Arial;
+  }
+
+  .info-general{
+    margin-left: -60%;
+    line-height: 150%;
+  }
+
+  .vuelo{
+    display: flex;
+    width: 90.5%;
+    padding: 1rem;
+    margin-top: 5%;
+    border-radius: 0.5rem;
+    box-shadow: 1px 1px 1px 2px gray;
+  }
+
+  .detalles{
+    color: gray;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+  }
+
+  .detalles span{
+    margin-bottom: 10%;
+    font-size: 14px;
+  }
+
+  .info{
+    color: gray;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20%;
+  }
+
+  .info span{
+    margin-bottom: 10%;
+    font-size: 14px;
+    margin-left: 40%;
+  }
+
+  .info strong{
+    margin-bottom: 10%;
+    font-size: 20px;
+  }
+
+  .info .pesos-colombianos{
+    margin-bottom: 10%;
+    font-size: 14px;
+  }
+
+  .btn-volver{
+    margin-top: 10%;
+    width: 91%;
+  }
 
   @media screen and (max-width: 320px) {
     .img-avion {
