@@ -19,7 +19,9 @@
     text-align: center;
     margin-bottom: 1.5rem;
   }
-  
+  a{
+    text-decoration: none;
+  }
 form {
     display: flex;
     flex-direction: column;
@@ -104,7 +106,7 @@ form {
   }
 
   .Ciudad {
-    padding: 0.6rem;
+    padding: 0.9rem;
     border: 1px solid #686767;
     color: gray;
     border-radius: 4px;
@@ -180,15 +182,15 @@ form {
     color: gray;
     font-size: 20px;
     margin-top: 4%;
-    margin-left: 5%;
+    margin-left:10%;
   }
   .vuelo{
     display: flex;
-    width: 90.5%;
+    width: 90%;
     padding: 1rem;
     margin-top: 5%;
     border-radius: 0.5rem;
-    box-shadow: 1px 1px 1px 2px gray;
+    box-shadow: 1px 1px 1px 2px gray;;
   }
   .detalles{
     color: gray;
@@ -204,7 +206,7 @@ form {
   }
   .despliege1{
     color: gray;
-    width: 30%;
+    width: 10%;
     display: flex;
     flex-direction: column;
     margin-top: 4%;
@@ -252,7 +254,7 @@ form {
 
   .btn-volver{
     margin-top: 10%;
-    width: 91%;
+    width: 90%;
   }
   #remenber-me {
     margin-top: 10px;
@@ -263,6 +265,10 @@ form {
     margin-left: 30px;
     color: #686767;
     font-size: 15px;
+  }
+  .jhon-texto{
+    margin-left: 14vw;
+    margin-top: -7vw;
   }
   @media screen and (max-width: 768px) {
     .container {
@@ -285,21 +291,25 @@ form {
   
     .foto {
       flex-direction: column;
-      align-items: center;
+      /* align-items: center; */
       padding: 0;
     }
-  
     .informacion-general,
     .vuelo {
-      width: 92%;
+      display: flex;
+      width: 90%;
+      height: 24vw;
       margin: 20px auto 0 auto;
       padding: 10px;
+    }
+    .texto-bo{
+      width: 30vw;
     }
     .detalles,
     .despliege1,
     .info {
       width: 100%;
-      margin: 18px 262px;
+      /* margin: 18px 262px; */
     }
     .despliege2{
       margin-left: 308px;
@@ -318,7 +328,7 @@ form {
     }
   
     .btn-volver {
-      width: 80%;
+      width: 90%;
       margin-top: 30px;
     }
   
@@ -334,6 +344,8 @@ form {
       margin: 10px 0 0 0;
       font-size: 14px;
       text-align: left;
+      margin-top: -35px;
+      margin-left: 25px;
     }
   
     .checkbox {
