@@ -135,23 +135,26 @@ form {
     margin-left: 5px;
     margin-top: 5px;
   }
-
+  .jhon--{
+    width: 50vw;
+  }
   .logout{
     color: gray;
   }
-  
   .login-title{
     margin-top: 35px;
     font-size: 20px;
     font-family: Arial;
   }
-
+  .text-ida{
+    margin-top: -11vw;
+    margin-left: 4vw;
+  }
   .checkbox{
     color: gray;
-    margin-bottom: -15px;
+    margin-bottom: -50px;
     margin-top: -2px;
   }
-
   .vuelos-disponibles{
     margin-top: 50px;
   }
@@ -284,9 +287,10 @@ form {
     }
   
     .info-foto {
-      width: 50px;
-      margin: 10px auto;
+      width: 100px;
+      margin-left: 60px ;
       display: block;
+      margin-top: -35px;
     }
   
     .foto {
